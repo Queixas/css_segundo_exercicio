@@ -1,0 +1,41 @@
+html {
+    margin: 1;
+    padding: 1;
+}
+
+body { 
+    width: 100%;
+    height: fit-content;
+}
+
+p { font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    align-items:normal;
+    color:#607BA3;
+}
+
+h1, h2, h3, h4 {
+    color: #223C63;
+    background-color: #E3E0DA;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Classes específicas */
+
+.intro {
+    column-count: 2;
+    width: fit-content;
+}  
+
+.page-wrapper {
+    background-color: #DADEE3;
+    position:sticky;
+    align-content: end;
+    width: 100%;
+}
+
+.summary {
+    width: fit-content;
+    text-align:justify;
+}
